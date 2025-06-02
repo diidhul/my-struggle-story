@@ -1,0 +1,336 @@
+@font-face {
+  font-family: "Margem Rounded";
+  src: url("MargemRounded-Regular.eot");
+  src: local("Margem Rounded Regular"), local("MargemRounded-Regular"),
+    url("MargemRounded-Regular.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-Regular.woff2") format("woff2"),
+    url("MargemRounded-Regular.woff") format("woff"),
+    url("MargemRounded-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem Rounded";
+  src: url("MargemRounded-Thin.eot");
+  src: local("Margem Rounded Thin"), local("MargemRounded-Thin"),
+    url("MargemRounded-Thin.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-Thin.woff2") format("woff2"),
+    url("MargemRounded-Thin.woff") format("woff"),
+    url("MargemRounded-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem";
+  src: url("Margem-BlackItalic.eot");
+  src: local("Margem Black Italic"), local("Margem-BlackItalic"),
+    url("Margem-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("Margem-BlackItalic.woff2") format("woff2"),
+    url("Margem-BlackItalic.woff") format("woff"),
+    url("Margem-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Margem";
+  src: url("Margem-Italic.eot");
+  src: local("Margem Italic"), local("Margem-Italic"),
+    url("Margem-Italic.eot?#iefix") format("embedded-opentype"),
+    url("Margem-Italic.woff2") format("woff2"),
+    url("Margem-Italic.woff") format("woff"),
+    url("Margem-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Margem";
+  src: url("Margem-Black.eot");
+  src: local("Margem Black"), local("Margem-Black"),
+    url("Margem-Black.eot?#iefix") format("embedded-opentype"),
+    url("Margem-Black.woff2") format("woff2"),
+    url("Margem-Black.woff") format("woff"),
+    url("Margem-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem";
+  src: url("Margem-Light.eot");
+  src: local("Margem Light"), local("Margem-Light"),
+    url("Margem-Light.eot?#iefix") format("embedded-opentype"),
+    url("Margem-Light.woff2") format("woff2"),
+    url("Margem-Light.woff") format("woff"),
+    url("Margem-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem Rounded XBold";
+  src: url("MargemRounded-XBold.eot");
+  src: local("Margem Rounded XBold"), local("MargemRounded-XBold"),
+    url("MargemRounded-XBold.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-XBold.woff2") format("woff2"),
+    url("MargemRounded-XBold.woff") format("woff"),
+    url("MargemRounded-XBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem Rounded";
+  src: url("MargemRounded-Bold.eot");
+  src: local("Margem Rounded Bold"), local("MargemRounded-Bold"),
+    url("MargemRounded-Bold.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-Bold.woff2") format("woff2"),
+    url("MargemRounded-Bold.woff") format("woff"),
+    url("MargemRounded-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem Rounded";
+  src: url("MargemRounded-BlackItalic.eot");
+  src: local("Margem Rounded Black Italic"), local("MargemRounded-BlackItalic"),
+    url("MargemRounded-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-BlackItalic.woff2") format("woff2"),
+    url("MargemRounded-BlackItalic.woff") format("woff"),
+    url("MargemRounded-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Margem Rounded";
+  src: url("MargemRounded-Light.eot");
+  src: local("Margem Rounded Light"), local("MargemRounded-Light"),
+    url("MargemRounded-Light.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-Light.woff2") format("woff2"),
+    url("MargemRounded-Light.woff") format("woff"),
+    url("MargemRounded-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem XBold";
+  src: url("Margem-XBold.eot");
+  src: local("Margem XBold"), local("Margem-XBold"),
+    url("Margem-XBold.eot?#iefix") format("embedded-opentype"),
+    url("Margem-XBold.woff2") format("woff2"),
+    url("Margem-XBold.woff") format("woff"),
+    url("Margem-XBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem Rounded";
+  src: url("MargemRounded-MediumItalic.eot");
+  src: local("Margem Rounded Medium Italic"),
+    local("MargemRounded-MediumItalic"),
+    url("MargemRounded-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-MediumItalic.woff2") format("woff2"),
+    url("MargemRounded-MediumItalic.woff") format("woff"),
+    url("MargemRounded-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Margem Rounded";
+  src: url("MargemRounded-BoldItalic.eot");
+  src: local("Margem Rounded Bold Italic"), local("MargemRounded-BoldItalic"),
+    url("MargemRounded-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-BoldItalic.woff2") format("woff2"),
+    url("MargemRounded-BoldItalic.woff") format("woff"),
+    url("MargemRounded-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Margem";
+  src: url("Margem-MediumItalic.eot");
+  src: local("Margem Medium Italic"), local("Margem-MediumItalic"),
+    url("Margem-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("Margem-MediumItalic.woff2") format("woff2"),
+    url("Margem-MediumItalic.woff") format("woff"),
+    url("Margem-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Margem";
+  src: url("Margem-Regular.eot");
+  src: local("Margem Regular"), local("Margem-Regular"),
+    url("Margem-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Margem-Regular.woff2") format("woff2"),
+    url("Margem-Regular.woff") format("woff"),
+    url("Margem-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem XBold";
+  src: url("Margem-XBoldItalic.eot");
+  src: local("Margem XBold Italic"), local("Margem-XBoldItalic"),
+    url("Margem-XBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("Margem-XBoldItalic.woff2") format("woff2"),
+    url("Margem-XBoldItalic.woff") format("woff"),
+    url("Margem-XBoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Margem Rounded";
+  src: url("MargemRounded-LightItalic.eot");
+  src: local("Margem Rounded Light Italic"), local("MargemRounded-LightItalic"),
+    url("MargemRounded-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-LightItalic.woff2") format("woff2"),
+    url("MargemRounded-LightItalic.woff") format("woff"),
+    url("MargemRounded-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Margem";
+  src: url("Margem-Bold.eot");
+  src: local("Margem Bold"), local("Margem-Bold"),
+    url("Margem-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Margem-Bold.woff2") format("woff2"),
+    url("Margem-Bold.woff") format("woff"),
+    url("Margem-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem";
+  src: url("Margem-Medium.eot");
+  src: local("Margem Medium"), local("Margem-Medium"),
+    url("Margem-Medium.eot?#iefix") format("embedded-opentype"),
+    url("Margem-Medium.woff2") format("woff2"),
+    url("Margem-Medium.woff") format("woff"),
+    url("Margem-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem";
+  src: url("Margem-ThinItalic.eot");
+  src: local("Margem Thin Italic"), local("Margem-ThinItalic"),
+    url("Margem-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("Margem-ThinItalic.woff2") format("woff2"),
+    url("Margem-ThinItalic.woff") format("woff"),
+    url("Margem-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Margem Rounded";
+  src: url("MargemRounded-Black.eot");
+  src: local("Margem Rounded Black"), local("MargemRounded-Black"),
+    url("MargemRounded-Black.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-Black.woff2") format("woff2"),
+    url("MargemRounded-Black.woff") format("woff"),
+    url("MargemRounded-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem Rounded";
+  src: url("MargemRounded-ThinItalic.eot");
+  src: local("Margem Rounded Thin Italic"), local("MargemRounded-ThinItalic"),
+    url("MargemRounded-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-ThinItalic.woff2") format("woff2"),
+    url("MargemRounded-ThinItalic.woff") format("woff"),
+    url("MargemRounded-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Margem";
+  src: url("Margem-BoldItalic.eot");
+  src: local("Margem Bold Italic"), local("Margem-BoldItalic"),
+    url("Margem-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("Margem-BoldItalic.woff2") format("woff2"),
+    url("Margem-BoldItalic.woff") format("woff"),
+    url("Margem-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Margem Rounded";
+  src: url("MargemRounded-Medium.eot");
+  src: local("Margem Rounded Medium"), local("MargemRounded-Medium"),
+    url("MargemRounded-Medium.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-Medium.woff2") format("woff2"),
+    url("MargemRounded-Medium.woff") format("woff"),
+    url("MargemRounded-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem";
+  src: url("Margem-Thin.eot");
+  src: local("Margem Thin"), local("Margem-Thin"),
+    url("Margem-Thin.eot?#iefix") format("embedded-opentype"),
+    url("Margem-Thin.woff2") format("woff2"),
+    url("Margem-Thin.woff") format("woff"),
+    url("Margem-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Margem Rounded";
+  src: url("MargemRounded-Italic.eot");
+  src: local("Margem Rounded Italic"), local("MargemRounded-Italic"),
+    url("MargemRounded-Italic.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-Italic.woff2") format("woff2"),
+    url("MargemRounded-Italic.woff") format("woff"),
+    url("MargemRounded-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Margem";
+  src: url("Margem-LightItalic.eot");
+  src: local("Margem Light Italic"), local("Margem-LightItalic"),
+    url("Margem-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("Margem-LightItalic.woff2") format("woff2"),
+    url("Margem-LightItalic.woff") format("woff"),
+    url("Margem-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Margem Rounded XBold";
+  src: url("MargemRounded-XBoldItalic.eot");
+  src: local("Margem Rounded XBold Italic"), local("MargemRounded-XBoldItalic"),
+    url("MargemRounded-XBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("MargemRounded-XBoldItalic.woff2") format("woff2"),
+    url("MargemRounded-XBoldItalic.woff") format("woff"),
+    url("MargemRounded-XBoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}

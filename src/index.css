@@ -1,0 +1,96 @@
+@import "./assets/styles/font/fontStylesheet.css";
+@import "tailwindcss";
+
+:root {
+  /* Variabel Font Family */
+  --font-black: "Margem", sans-serif;
+  --font-bold: "Margem", sans-serif;
+  --font-semibold: "Margem", sans-serif;
+  --font-medium: "Margem", sans-serif;
+  --font-regular: "Margem", sans-serif;
+
+  /* Variabel Warna Teks */
+  --font-default-color: #ffffff; /* Putih */
+  --font-secondary-color: #434343; /* Abu-abu gelap */
+  --font-tertiary-color: #ebedee; /* Abu-abu muda */
+
+  /* Variabel Warna Background */
+  --bg-primary-color: #000000;
+  --bg-secondary-color: #f0f0f0; /* Warna background terang */
+}
+
+* {
+  /* margin: 0;
+  padding: 0;
+  padding-top: 2px;
+  padding-left: 4px;
+  padding-right: 4px; */
+  box-sizing: border-box;
+}
+
+/* Penerapan Background Color ke Body */
+body {
+  background-color: var(--bg-primary-color);
+  color: var(--font-default-color);
+  font-family: var(--font-regular);
+}
+
+h1 {
+  font-family: var(--font-black);
+  font-weight: 900;
+  color: var(--font-default-color);
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: var(--font-bold);
+  font-weight: 700;
+  color: var(--font-default-color);
+  font-size: 2rem;
+  line-height: 1;
+}
+
+h3 {
+  font-family: var(--font-semibold);
+  font-weight: 600;
+  color: var(--font-default-color);
+  font-size: 2rem;
+  line-height: 0.7;
+}
+
+h4 {
+  font-family: var(--font-medium);
+  font-weight: 400;
+  color: var(--font-default-color);
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+h5 {
+  font-family: var(--font-regular);
+  font-weight: 300;
+  color: var(--font-default-color);
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+h6 {
+  font-family: var(--font-regular);
+  font-weight: 400;
+  color: var(--font-default-color);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+p {
+  font-family: var(--font-regular);
+  color: var(--font-tertiary-color);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
