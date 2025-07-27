@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Card from "../components/Card";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Filter from "../components/Filter";
 
 type BlogContent = {
   id: string;
@@ -23,6 +24,7 @@ const Homepage = () => {
         const response = await fetch(API_URL);
         if (!response.ok) throw new Error("Failed to fetch data");
         const data = await response.json();
+        // console.log(data);
         setBlogs(data);
       } catch (err) {
         setError((err as Error).message);
@@ -69,11 +71,17 @@ const Homepage = () => {
     <>
       <Navbar />
       <Hero />
-      <div className="min-h-screen px-60 py-10">
-        {error && <p className="text-red-500">{error}</p>}
+
+      <div className="min-h-screen px-6 lg:px-60 lg:py-10">
+        {error}
         {Object.entries(groupedBlogs).map(([month, blogList]) => (
-          <div key={month} className="grid grid-cols-7 gap-4 mb-30">
-            <h2 className="text-2xl font-bold col-span-7">{month}</h2>
+          <div
+            key={month}
+            className="grid grid-cols-5 lg:grid-cols-7 gap-4 mb-30"
+          >
+            <h2 className="text-2xl font-bold col-span-2 lg:col-span-7">
+              {month}
+            </h2>
             {blogList.map((blog) => (
               <div key={blog.id}>
                 <button onClick={() => handleClick(blog.id)}>
