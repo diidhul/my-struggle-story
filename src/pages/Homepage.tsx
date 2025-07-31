@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Card from "../components/Card";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import Filter from "../components/Filter";
+// import Filter from "../components/Filter";
 
 type BlogContent = {
   id: string;

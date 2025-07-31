@@ -4,6 +4,7 @@ import { BiLogoGmail } from "react-icons/bi";
 import { AiOutlineGithub } from "react-icons/ai";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi"; // Tambahkan ikon hamburger
 import { useLocation } from "react-router-dom";
+import ButtonTheme from "./ButtonTheme";
 
 const Navbar = () => {
   const location = useLocation();
@@ -31,6 +32,7 @@ const Navbar = () => {
               ⏑_⏑<span className="text-amber-500 cursor-pointer"> .</span>
             </h1>
           </a>
+          <ButtonTheme />
 
           <div className="hidden md:flex gap-5">
             {MenuItem.map((menu, index) => (
@@ -67,6 +69,7 @@ const Navbar = () => {
           isOpen ? "block" : "hidden"
         }`}
       >
+        <ButtonTheme />
         {MenuItem.map((menu, index) => (
           <a
             key={index}

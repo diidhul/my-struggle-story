@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Virgil";
+  src: url("Virgil-Regular.eot");
+  src: local("Virgil Regular"), local("Virgil-Regular"),
+    url("Virgil-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Virgil-Regular.woff2") format("woff2"),
+    url("Virgil-Regular.woff") format("woff"),
+    url("Virgil-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Virgil", sans-serif;
+}

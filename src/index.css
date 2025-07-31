@@ -1,13 +1,13 @@
-@import "./assets/styles/font/fontStylesheet.css";
+@import "./styles/font/fontStylesheet.css";
 @import "tailwindcss";
 
 :root {
   /* Variabel Font Family */
-  --font-black: "Margem", sans-serif;
-  --font-bold: "Margem", sans-serif;
-  --font-semibold: "Margem", sans-serif;
-  --font-medium: "Margem", sans-serif;
-  --font-regular: "Margem", sans-serif;
+  --font-black: "Virgil", sans-serif;
+  --font-bold: "Virgil", sans-serif;
+  --font-semibold: "Virgil", sans-serif;
+  --font-medium: "Virgil", sans-serif;
+  --font-regular: "Virgil", sans-serif;
 
   /* Variabel Warna Teks */
   --font-default-color: #ffffff; /* Putih */
@@ -28,17 +28,21 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: var(--font-regular);
+}
+
 /* Penerapan Background Color ke Body */
 body {
-  background-color: var(--bg-primary-color);
-  color: var(--font-default-color);
-  font-family: var(--font-regular);
+  /* background-color: var(--bg-primary-color); */
+  /* color: var(--font-default-color); */
+  /* font-family: var(--font-regular); */
 }
 
 h1 {
   font-family: var(--font-black);
   font-weight: 900;
-  color: var(--font-default-color);
+  /* color: var(--font-default-color); */
   font-size: 2.5rem;
   line-height: 1.2;
 }
@@ -46,7 +50,7 @@ h1 {
 h2 {
   font-family: var(--font-bold);
   font-weight: 700;
-  color: var(--font-default-color);
+  /* color: var(--font-default-color); */
   font-size: 2rem;
   line-height: 1;
 }
@@ -54,7 +58,7 @@ h2 {
 h3 {
   font-family: var(--font-semibold);
   font-weight: 600;
-  color: var(--font-default-color);
+  /* color: var(--font-default-color); */
   font-size: 2rem;
   line-height: 0.7;
 }
@@ -62,7 +66,7 @@ h3 {
 h4 {
   font-family: var(--font-medium);
   font-weight: 400;
-  color: var(--font-default-color);
+  /* color: var(--font-default-color); */
   font-size: 1.2rem;
   line-height: 1;
 }
@@ -70,7 +74,7 @@ h4 {
 h5 {
   font-family: var(--font-regular);
   font-weight: 300;
-  color: var(--font-default-color);
+  /* color: var(--font-default-color); */
   font-size: 1.25rem;
   line-height: 1;
 }
@@ -78,14 +82,14 @@ h5 {
 h6 {
   font-family: var(--font-regular);
   font-weight: 400;
-  color: var(--font-default-color);
+  /* color: var(--font-default-color); */
   font-size: 1rem;
   line-height: 1.2;
 }
 
 p {
   font-family: var(--font-regular);
-  color: var(--font-tertiary-color);
+  /* color: var(--font-tertiary-color); */
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1rem;
