@@ -53,11 +53,11 @@ const Filter = () => {
           <input
             type="text"
             placeholder="input disini"
-            className="bg-slate-300 text-black"
+            className="bg-slate-300 "
             onChange={handleChange}
             value={inputValue}
           />
-          <button type="submit" className="bg-black text-white">
+          <button type="submit" className=" text-white">
             submit
           </button>
         </form>

@@ -1,13 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import "./styles/font/fontStylesheet.css";
 @import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 :root {
   /* Variabel Font Family */
-  --font-black: "Virgil", sans-serif;
-  --font-bold: "Virgil", sans-serif;
-  --font-semibold: "Virgil", sans-serif;
-  --font-medium: "Virgil", sans-serif;
-  --font-regular: "Virgil", sans-serif;
+  --font-black: "Gochi Hand", cursive;
+  --font-bold: "Gochi Hand", cursive;
+  --font-semibold: "Shantell Sans", cursive;
+  --font-medium: "Shantell Sans", cursive;
+  --font-regular: "Shantel Sans", cursive;
 
   /* Variabel Warna Teks */
   --font-default-color: #ffffff; /* Putih */
@@ -30,6 +32,11 @@
 
 html {
   font-family: var(--font-regular);
+}
+
+.dark {
+  background-color: black;
+  color: white;
 }
 
 /* Penerapan Background Color ke Body */
@@ -98,6 +105,11 @@ p {
 a {
   text-decoration: none;
 }
+
+/* .dark {
+  background-color: black;
+  color: white;
+} */
 
 @media (max-width: 640px) {
   h1 {

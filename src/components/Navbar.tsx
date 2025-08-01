@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { AiOutlineGithub } from "react-icons/ai";
-import { HiOutlineMenu, HiOutlineX } from "react-icons/hi"; // Tambahkan ikon hamburger
+import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 import { useLocation } from "react-router-dom";
 import ButtonTheme from "./ButtonTheme";
 
@@ -32,7 +32,6 @@ const Navbar = () => {
               ⏑_⏑<span className="text-amber-500 cursor-pointer"> .</span>
             </h1>
           </a>
-          <ButtonTheme />
 
           <div className="hidden md:flex gap-5">
             {MenuItem.map((menu, index) => (
@@ -46,6 +45,7 @@ const Navbar = () => {
                 <menu.icon size={30} />
               </a>
             ))}
+            <ButtonTheme />
           </div>
 
           <button className="md:hidden text-2xl" onClick={toggleMenu}>
@@ -60,6 +60,7 @@ const Navbar = () => {
               î⁔î <span className="text-amber-500 cursor-pointer">.</span>
             </h1>
           </a>
+          <ButtonTheme />
         </nav>
       )}
 

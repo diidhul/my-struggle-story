@@ -19,6 +19,7 @@ const ThemeProvider = ({ children }: ThemeProviderProps) => {
 
   const changeTheme = () => {
     setTheme((prev) => (prev === "light" ? "dark" : "light"));
+    document.body.classList.toggle("dark");
   };
   return (
     <ThemeContext.Provider value={{ changeTheme, theme }}>

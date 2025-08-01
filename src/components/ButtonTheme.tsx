@@ -9,12 +9,7 @@ const ButtonTheme = () => {
   }
 
   const { theme, changeTheme } = themeContext;
-  return (
-    <button onClick={changeTheme} className="text-black">
-      {" "}
-      in itombol button theme {theme}
-    </button>
-  );
+  return <button onClick={changeTheme}>{theme}</button>;
 };
 
 export default ButtonTheme;

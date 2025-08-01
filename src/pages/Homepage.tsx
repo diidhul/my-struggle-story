@@ -72,7 +72,7 @@ const Homepage = () => {
       <Navbar />
       <Hero />
 
-      <div className="min-h-screen px-6 lg:px-60 lg:py-10">
+      <div className="min-h-screen px-6 lg:px-60 lg:py-10 ">
         {error}
         {Object.entries(groupedBlogs).map(([month, blogList]) => (
           <div
